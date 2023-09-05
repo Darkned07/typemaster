@@ -1,0 +1,48 @@
+.header {
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 6.4rem;
+  padding-top: 6.4rem;
+}
+.container {
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.site_logo_img {
+}
+.btn {
+}
+.btn-dark {
+}
+.header-link {
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header-container {
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .btn {
+    padding: 1.1rem 1.4rem;
+  }
+}
